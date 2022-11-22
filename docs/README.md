@@ -13,7 +13,7 @@ features:
 - title: vue画ui
   details: ui采用vue2+vant2，使用简单。刻俄柏都会用
 - title: js语法
-  details: 1%的nodejs语法，99%的js语法，刻俄柏看了都不吃蜜饼了
+  details: 1%的nodejs语法，99%的js语法，刻俄柏都不吃蜜饼了
 footer: © ttt唐老鸭 <a href="https://space.bilibili.com/95667314">bilibili</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAVaIKYLt5SGqOtvh-Sd6n8LZowfI8mB49xePkGsGq8P59Rwon9LeRGifG8LfBqu4p">抖音</a>
 footerHtml: true
 ---

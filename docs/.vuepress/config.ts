@@ -3,6 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { tocPlugin } from '@vuepress/plugin-toc'
 import { activeHeaderLinksPlugin } from '@vuepress/plugin-active-header-links'
+import {searchPlugin} from "@vuepress/plugin-search";
 export default defineUserConfig({
     lang: 'zh-CN',
     description: '明日方舟周收菜脚本，autojsPro9,nodejs，vue2，vant',
@@ -15,6 +16,9 @@ export default defineUserConfig({
         }),
         activeHeaderLinksPlugin({
             headerLinkSelector:'.vuepress-toc-link'
+        }),
+        searchPlugin({
+            // 配置项
         }),
     ],
     theme: defaultTheme({
