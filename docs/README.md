@@ -10,10 +10,10 @@ actions:
 features:
 - title: 注释至上
   details: 几乎每一行代码都有注释，方便阅读修改，刻俄柏都能看懂
-- title: Vue驱动
-  details: ui采用vue2+vant，使用简单。刻俄柏都会用
+- title: vue画ui
+  details: ui采用vue2+vant2，使用简单。刻俄柏都会用
 - title: js语法
-  details: 1%的nodejs语法，99%的js语法，可露希尔都说好
+  details: 1%的nodejs语法，99%的js语法，刻俄柏看了都不吃蜜饼了
 footer: © ttt唐老鸭 <a href="https://space.bilibili.com/95667314">bilibili</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAVaIKYLt5SGqOtvh-Sd6n8LZowfI8mB49xePkGsGq8P59Rwon9LeRGifG8LfBqu4p">抖音</a>
 footerHtml: true
 ---

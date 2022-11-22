@@ -1,0 +1,30 @@
+.page {
+
+  .theme-default-content {
+    margin: initial;
+  }
+
+  @media (min-width: 1350px) {
+    .theme-default-content {
+      max-width: calc(100% - var(--sidebar-width) - 55px);
+    }
+  }
+
+  @media (max-width: 1350px) {
+    .theme-default-content {
+      max-width: 100%;
+    }
+  }
+
+
+  .page-meta {
+    margin: initial;
+  }
+
+  .active{
+    color: #ff5454;
+  }
+
+}
+
+
