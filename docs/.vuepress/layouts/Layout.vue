@@ -7,14 +7,14 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
     <template #page-top>
       <div class="toc-wrapper">
         <b>本页目录</b>
-        <Toc />
+        <Toc/>
       </div>
     </template>
   </ParentLayout>
 </template>
 
-<style lang="css">
-.toc-wrapper{
+<style lang="scss" scoped>
+.toc-wrapper {
   position: fixed;
   float: right;
   top: 5.5rem;
@@ -22,8 +22,9 @@ import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
   width: 300px;
   overflow: auto;
 }
+
 @media (max-width: 1350px) {
-  .toc-wrapper{
+  .toc-wrapper {
     display: none;
   }
 }

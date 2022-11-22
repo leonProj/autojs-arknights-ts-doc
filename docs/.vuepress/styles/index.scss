@@ -21,10 +21,15 @@
     margin: initial;
   }
 
-  .active{
-    color: #ff5454;
+  .vuepress-toc-item{
+    list-style: none;
+    .active{
+      color: #ff5454;
+      &:after {
+        content:'😘' ;
+      }
+    }
   }
-
 }
 
 
