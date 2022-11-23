@@ -27,12 +27,37 @@ export default defineUserConfig({
         // 导航栏
         navbar: [
             {
+                text: '个人链接',
+                children:[
+                    {
+                        text: 'b站',
+                        link: 'https://space.bilibili.com/95667314',
+                    },
+                    {
+                        text: '抖音',
+                        link: 'https://www.douyin.com/user/MS4wLjABAAAAVaIKYLt5SGqOtvh-Sd6n8LZowfI8mB49xePkGsGq8P59Rwon9LeRGifG8LfBqu4p',
+                    },
+                ]
+            },
+            {
                 text: 'github',
                 link: 'https://github.com/leonProj/autojs-arknights-ts',
             },
             {
                 text: 'gitee',
                 link: 'https://gitee.com/leonProj/autojs-arknights-ts',
+            },
+            {
+                text: 'autojsPro9',
+                link: 'https://pro.autojs.org/docs/',
+            },
+            {
+                text:'vant2',
+                link:'http://vant-contrib.gitee.io/vant/v2/#/zh-CN/'
+            },
+            {
+                text:'vuejs',
+                link:'https://cn.vuejs.org/'
             },
         ],
         sidebar: [
@@ -42,6 +67,7 @@ export default defineUserConfig({
             '/structure/',
             '/logic/',
             '/gameLogic/',
+            '/ui/',
         ],
         sidebarDepth: 0,
     })
