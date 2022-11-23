@@ -35,6 +35,14 @@ export default defineUserConfig({
                 link: 'https://gitee.com/leonProj/autojs-arknights-ts',
             },
         ],
+        sidebar: [
+            // 字符串 - 页面文件路径
+            '/start/',
+            '/question/',
+            '/structure/',
+            '/logic/',
+            '/gameLogic/',
+        ],
         sidebarDepth: 0,
     })
 })

@@ -1,12 +1,14 @@
+:root{
+  --sidebar-width: 14rem;
+}
 .page {
-
   .theme-default-content {
     margin: initial;
   }
 
   @media (min-width: 1350px) {
     .theme-default-content {
-      max-width: calc(100% - var(--sidebar-width) - 55px);
+      max-width: calc(100% - var(--sidebar-width) - 140px);
     }
   }
 
