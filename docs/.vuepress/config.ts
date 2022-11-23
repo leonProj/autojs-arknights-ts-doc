@@ -61,7 +61,7 @@ export default defineUserConfig({
             },
         ],
         sidebar: [
-            // 字符串 - 页面文件路径
+            '/introduce/',
             '/start/',
             '/question/',
             '/structure/',
