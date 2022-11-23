@@ -45,6 +45,11 @@ OCR下载地址：[https://wws.lanzoux.com/iduulmofune](https://wws.lanzoux.com/
 打开电脑文件夹，将项目放到此目录下即可
 <Mimg src="start/img_5.png"/>
 ### 构建项目
+安装依赖
+```bash
+yarn 或 npm install
+```
+打包
 ```bash
  npm run build
 ```
