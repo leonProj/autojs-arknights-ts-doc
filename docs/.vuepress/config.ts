@@ -9,6 +9,7 @@ export default defineUserConfig({
     description: '明日方舟周收菜脚本，autojsPro9,nodejs，vue2，vant',
     head: [['link', { rel: 'icon', href: '/images/logo.png' }]],
     title:'autojs-arknights-ts',
+    base:'/autojs-arknights-ts-doc/',
     plugins: [
         backToTopPlugin(),
         tocPlugin({
