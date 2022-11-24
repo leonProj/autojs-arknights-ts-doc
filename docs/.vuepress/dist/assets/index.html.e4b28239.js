@@ -1,4 +1,4 @@
-import{_ as e,o as n,c as i,e as s}from"./app.c897fe6e.js";const a={},d=s(`<h1 id="项目结构" tabindex="-1"><a class="header-anchor" href="#项目结构" aria-hidden="true">#</a> 项目结构</h1><h2 id="目录说明" tabindex="-1"><a class="header-anchor" href="#目录说明" aria-hidden="true">#</a> 目录说明</h2><div class="language-markdown line-numbers-mode" data-ext="md"><pre class="language-markdown"><code>|-- autojs-arknights-ts
+import{_ as e,o as n,c as i,e as s}from"./app.fc45c6d8.js";const a={},d=s(`<h1 id="项目结构" tabindex="-1"><a class="header-anchor" href="#项目结构" aria-hidden="true">#</a> 项目结构</h1><h2 id="目录说明" tabindex="-1"><a class="header-anchor" href="#目录说明" aria-hidden="true">#</a> 目录说明</h2><div class="language-markdown line-numbers-mode" data-ext="md"><pre class="language-markdown"><code>|-- autojs-arknights-ts
     |-- bin 构建后目录
     |   |-- main.node.js 执行的主js文件 
     |-- script build时的一些脚本，主要是添加一些autojs需求的头和移动或删除一些文件夹，不用管
