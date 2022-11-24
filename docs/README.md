@@ -5,7 +5,7 @@ heroText: autojs-arknights-ts
 tagline: 明日方舟收菜脚本
 actions:
 - text: 让我们开始吧
-  link: /start/
+  link: /introduce/
   type: primary
 features:
 - title: 注释至上
