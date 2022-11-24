@@ -17,3 +17,7 @@ features:
 footer: © ttt唐老鸭 <a href="https://space.bilibili.com/95667314">bilibili</a> | <a href="https://www.douyin.com/user/MS4wLjABAAAAVaIKYLt5SGqOtvh-Sd6n8LZowfI8mB49xePkGsGq8P59Rwon9LeRGifG8LfBqu4p">抖音</a>
 footerHtml: true
 ---
+<div style="display: flex;justify-content: center;flex-direction: column;align-items: center">
+ <Mimg src="introduce/1.gif" width="700"/>
+  <Mimg src="introduce/2.gif" width="700"/>
+</div>
