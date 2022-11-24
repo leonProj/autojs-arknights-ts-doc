@@ -8,11 +8,6 @@
            title="github" width="30"/> github
     </a>
 
-    <a :href="ADDRESS_DIC[code].gitee" target="_blank" style="display: flex;align-items: center;margin-top: 10px">
-      <img height="30"
-           src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-8f7e1d02-dcb1-46ba-90db-ae32fea44f22/0d0bc2dc-64e3-4ea1-a641-9c23d198e36d.png"
-           title="github" width="30"/> gitee
-    </a>
 
     <br/>
   </div>
@@ -22,7 +17,6 @@
 const ADDRESS_DIC = {
   proj: {
     github: 'https://github.com/leonProj/autojs-arknights-ts',
-    gitee: "https://gitee.com/leonProj/autojs-arknights-ts"
   },
 }
 export default {

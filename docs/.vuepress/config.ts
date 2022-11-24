@@ -25,6 +25,9 @@ export default defineUserConfig({
     theme: defaultTheme({
         // Public 文件路径
         logo: '/images/logo.png',
+        repo:'https://github.com/leonProj/autojs-arknights-ts',
+        docsRepo:'https://github.com/leonProj/autojs-arknights-ts-doc',
+        docsBranch:'master',
         // 导航栏
         navbar: [
             {
@@ -39,14 +42,6 @@ export default defineUserConfig({
                         link: 'https://www.douyin.com/user/MS4wLjABAAAAVaIKYLt5SGqOtvh-Sd6n8LZowfI8mB49xePkGsGq8P59Rwon9LeRGifG8LfBqu4p',
                     },
                 ]
-            },
-            {
-                text: 'github',
-                link: 'https://github.com/leonProj/autojs-arknights-ts',
-            },
-            {
-                text: 'gitee',
-                link: 'https://gitee.com/leonProj/autojs-arknights-ts',
             },
             {
                 text: 'autojsPro9',
