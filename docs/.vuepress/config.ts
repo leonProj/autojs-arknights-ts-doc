@@ -67,8 +67,8 @@ export default defineUserConfig({
         ],
         sidebar: [
             '/introduce/',
-            '/start/',
             '/question/',
+            '/start/',
             '/structure/',
             '/logic/',
             '/gameLogic/',
