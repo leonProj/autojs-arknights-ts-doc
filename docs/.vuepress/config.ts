@@ -27,7 +27,7 @@ export default defineUserConfig({
         logo: '/images/logo.png',
         repo:'https://github.com/leonProj/autojs-arknights-ts',
         docsRepo:'https://github.com/leonProj/autojs-arknights-ts-doc',
-        docsBranch:'master',
+        docsBranch:'master/docs',
         // 导航栏
         navbar: [
             {
@@ -44,16 +44,25 @@ export default defineUserConfig({
                 ]
             },
             {
-                text: 'autojsPro9',
-                link: 'https://pro.autojs.org/docs/',
+                text: '友情链接',
+                  children:[
+                      {
+                          text: 'autojsPro9',
+                          link: 'https://pro.autojs.org/docs/',
+                      },
+                      {
+                          text:'vant2',
+                          link:'http://vant-contrib.gitee.io/vant/v2/#/zh-CN/'
+                      },
+                      {
+                          text:'vuejs',
+                          link:'https://cn.vuejs.org/'
+                      },
+                  ]
             },
             {
-                text:'vant2',
-                link:'http://vant-contrib.gitee.io/vant/v2/#/zh-CN/'
-            },
-            {
-                text:'vuejs',
-                link:'https://cn.vuejs.org/'
+                text: 'discord',
+                link: 'https://discord.gg/PC2tCFDrFG',
             },
         ],
         sidebar: [
