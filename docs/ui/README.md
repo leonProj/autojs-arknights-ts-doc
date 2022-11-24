@@ -1,4 +1,42 @@
 # 界面
+## 简介
+<Mimg src="logic/img_2.png" width="700"/>
+
+上图中四个switch开关就是与这里的值绑定的，关闭代表流程没完成。开启代表流程已完成
+
+`src\state\index.ts`
+```ts
+/**
+ * @Description: 游戏信息
+ */
+export interface GameInfo {
+    /**
+     * @Description: 是否公招结束 默认false
+     */
+    isPublicRecruitEnd: boolean;
+
+    /**
+     * 是否采购中心结束。默认false
+     */
+    isPurchaseEnd:boolean
+
+    /**
+     * 是否访问好友结束。默认false
+     */
+    isFriendHomeEnd:boolean
+
+    /**
+     * 是否基建流程结束。默认false
+     */
+    isConstructionEnd:boolean
+}
+const gameInfo: GameInfo = {
+    isPublicRecruitEnd: false,
+    isPurchaseEnd:false,
+    isFriendHomeEnd:false,
+    isConstructionEnd:false,
+}
+```
 :::tip
 vue目录在`src/web`下，采用vue2+vant2
 :::

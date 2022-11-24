@@ -200,7 +200,12 @@ async function run() {
     // ......
 }
 ```
-### 是否完成判读
+### 是否完成判断
+
+
+<Mimg src="logic/img_2.png" width="700"/>
+
+上图中四个switch开关就是与这里的值绑定的，关闭代表流程没完成。开启代表流程已完成
 
 `src\state\index.ts`
 ```ts
